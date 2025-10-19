@@ -1,0 +1,23 @@
+# Cursor Rules for Login Practice Project
+
+## Architecture Documentation Rule
+
+When making architectural changes to this project (including but not limited to):
+
+- Adding new components or features
+- Modifying component structure or relationships
+- Changing data flow or state management
+- Updating routing or navigation
+- Adding new dependencies or removing existing ones
+- Changing build configuration or deployment setup
+
+**ALWAYS update the Architecture.md file** to reflect these changes. The architecture documentation should include:
+
+- Current project structure
+- Component relationships and data flow
+- Key design decisions and rationale
+- Technology stack and dependencies
+- Deployment configuration
+- Any architectural patterns or conventions used
+
+This ensures the project documentation stays current and helps maintain consistency across development sessions.
