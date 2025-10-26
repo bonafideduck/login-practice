@@ -240,13 +240,14 @@ The project includes a preinstall script that detects and prevents npm usage:
 - **Base Path**: `/login-practice/` (configured in vite.config.js)
 - **Build Command**: `pnpm run build`
 - **Deploy Command**: `pnpm run deploy` (uses gh-pages package)
+- **GitHub Pages Branch**: `gh-pages-new` (configured in package.json)
 
 ### Build Process
 
 1. **Production CSP**: Vite plugin automatically switches to strict CSP during build
 2. **Asset Bundling**: Vite builds the application to `dist/` directory with bundled assets
 3. **CSP Restoration**: Development CSP is restored after build completion
-4. **Deployment**: gh-pages package pushes `dist/` contents to `gh-pages` branch
+4. **Deployment**: gh-pages package pushes `dist/` contents to `gh-pages-new` branch
 
 ### CSP Build Configuration
 

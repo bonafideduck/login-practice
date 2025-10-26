@@ -6,6 +6,7 @@ import CreateUser from "./components/CreateUser.vue";
 import OneStepLogin from "./components/OneStepLogin.vue";
 import TwoStepLogin from "./components/TwoStepLogin.vue";
 import AdminPage from "./components/AdminPage.vue";
+import ChangePassword from "./components/ChangePassword.vue";
 
 const routes = [
   { path: "/", component: LandingPage },
@@ -13,6 +14,7 @@ const routes = [
   { path: "/one-step-login", component: OneStepLogin },
   { path: "/two-step-login", component: TwoStepLogin },
   { path: "/admin", component: AdminPage },
+  { path: "/change-password", component: ChangePassword },
 ];
 
 const router = createRouter({

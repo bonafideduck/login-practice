@@ -19,6 +19,10 @@
           <span class="nav-icon">🔑</span>
           2-Step Login
         </router-link>
+        <router-link to="/change-password" class="nav-item">
+          <span class="nav-icon">🔒</span>
+          Change Password
+        </router-link>
         <router-link to="/admin" class="nav-item">
           <span class="nav-icon">⚙️</span>
           Admin Panel
