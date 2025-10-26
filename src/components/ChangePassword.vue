@@ -1,7 +1,10 @@
 <template>
   <div class="change-password">
     <h1>Change Password</h1>
-    <p class="description">Select a username, enter your old password, then choose a new password and verify it.</p>
+    <p class="description">
+      Select a username, enter your old password, then choose a new password and
+      verify it.
+    </p>
 
     <form @submit.prevent="handleSubmit" class="change-form">
       <div class="form-group">
@@ -50,7 +53,9 @@
       </div>
 
       <div class="actions">
-        <button type="submit" :disabled="!isFormValid" class="save-btn">Change Password</button>
+        <button type="submit" :disabled="!isFormValid" class="save-btn">
+          Change Password
+        </button>
       </div>
     </form>
 
